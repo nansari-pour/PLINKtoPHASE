@@ -6,4 +6,4 @@ An R-based tool to convert PLINK PED/MAP files to PHASE input and summarise PHAS
 1) PHASE_input.R
 
 
-2) PHASE_output_summarise.R
+2) PHASE_out_summarise.R
