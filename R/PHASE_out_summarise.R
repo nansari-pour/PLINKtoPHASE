@@ -34,6 +34,8 @@ for (i in 1:length(genes)){
     gene_table=rbind(gene_table,haplo_table)
     print(paste("gene_table nrow=", nrow(gene_table)))
   }
+  
+  library(reshape2)
   dc=dcast(gene_table,haplotype~Group,value.var="frequency")
   print(dim(dc))
   dc[is.na(dc)]=0
