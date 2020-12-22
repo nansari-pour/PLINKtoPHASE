@@ -1,5 +1,5 @@
-setwd("/Users/napour/Documents/Personal/CBRC/raw_data/cbrc_original_dataset/42snps/pedfiles")
-files=list.files("/Users/napour/Documents/Personal/CBRC/raw_data/cbrc_original_dataset/42snps/pedfiles",pattern = ".ped")
+setwd("/path/to/pedfiles")
+files=list.files(pattern = ".ped")
 #######################################
 chrs=c(2,7,8,10)
 genes=c("UGT1A","CYP3A5","NAT2","CYP2C19-CYP2C9")
